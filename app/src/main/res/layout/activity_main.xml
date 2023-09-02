@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"/>
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Password"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Technology"
+    android:textColor="@color/black"
+    android:textSize="18dp"
+    android:textStyle="bold"
+    android:layout_margin="10dp"/>
+
+    <RadioGroup
+        android:id="@+id/rdGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rdAndroid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android"/>
+
+        <RadioButton
+            android:id="@+id/rdFlutter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Flutter"/>
+
+        <RadioButton
+            android:id="@+id/rdWeb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Web"/>
+
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hobby"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"/>
+
+    <CheckBox
+        android:id="@+id/chkRead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reading"/>
+
+    <CheckBox
+        android:id="@+id/chkGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gaming"/>
+
+    <CheckBox
+        android:id="@+id/chkSwim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Swimming"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"/>
+
+
+</LinearLayout>

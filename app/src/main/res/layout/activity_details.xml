@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".DetailsActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Personal Details"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name" />
+
+    <EditText
+        android:id="@+id/edtSurname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Surname" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+
+
+
+    <RadioGroup
+        android:id="@+id/rgGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rdMale"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"/>
+
+        <RadioButton
+            android:id="@+id/rdFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hobby"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+
+
+    <CheckBox
+        android:id="@+id/chkSWIM1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Swimming"/>
+
+    <CheckBox
+        android:id="@+id/chkGAME1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gaming"/>
+    <CheckBox
+        android:id="@+id/chkREAD1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reading"/>
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+
+
+
+</LinearLayout>
